@@ -1,0 +1,16 @@
+{
+  "name": "@functions-io-modules/datasource.driver.mongodb",
+  "version": "0.0.1",
+  "description": "datasource driver mongo",
+  "category": "test",
+  "public": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "3.*"
+  }
+}
