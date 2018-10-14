@@ -22,7 +22,17 @@ var message1 = {};
 message1.username = "admin";
 message1.password = "123";
 moduleTest(message1, context).then(function(result){
-    assert.strictEqual(result.name, "admin");
+    try {
+        assert.strictEqual(result.name, "admin");
+    }
+    finally{
+        driver.close();
+    }
 }, function(err){
-    assert.strictEqual(err, null);
+    try {
+        assert.strictEqual(err, null);
+    }
+    finally{
+        driver.close();
+    }
 })
