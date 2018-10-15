@@ -1,6 +1,6 @@
 {
   "name": "@functions-io-modules/datasource.driver.mongo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "datasource driver mongo",
   "category": "test",
   "public": true,

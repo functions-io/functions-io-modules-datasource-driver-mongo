@@ -7,10 +7,10 @@ var config = {
     options:{
         useNewUrlParser:true
     },
-    dataBaseName: "security"
+    database: "security"
 }
 
-moduleTest.getConnect(config).then(function(db){
+moduleTest.getDataSource(config).then(function(db){
     db.collection("user").findOne({name:"admin"}).then(function(record){
         console.log(record);
 
