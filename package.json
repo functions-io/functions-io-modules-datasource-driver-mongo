@@ -1,9 +1,8 @@
 {
   "name": "@functions-io-modules/datasource.driver.mongo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "datasource driver mongo",
   "category": "test",
-  "public": true,
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
